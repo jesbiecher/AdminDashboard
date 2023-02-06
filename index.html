@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,100,0,-25" />
     <title>AdminDashboard</title>
 </head>
 
@@ -14,37 +16,41 @@
     <div class="main-container">
 
         <div class="header">
-            <div class="search-bar">Search Bar</div>
+            <div class="search-bar">
+                <span class="material-symbols-outlined search-bar-item">search</span>
+                <p class="search-bar-item">Search Bar</p>
+                <span class="material-symbols-outlined search-bar-item">notifications</span>
+                <span class="material-symbols-outlined search-bar-item">face</span>
+                <p class="search-bar-item">User Name</p>
+            </div>
 
-            <div class="welcome">Welcome</div>
-
-            <div class="user">User</div>
-
-            <div class="actions">
-                <button class="new">New</button>
-                <button class="upload">Upload</button>
-                <button class="share">Share</button>
+            <div class="user">
+                <p>Welcome back User Name!!</p>
+                <div class="actions">
+                    <button class="new">New</button>
+                    <button class="upload">Upload</button>
+                    <button class="share">Share</button>
+                </div>
             </div>
         </div>
 
         <div class="sidebar">
             <div class="logo">
-                <img src="" alt="Logo Image">
-                <p>Logo Text</p>
+                <div><span class="material-symbols-outlined">apps</span><p>Logo Text</p></div>
             </div>
-            <ul class="menu">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-            <ul class="settings">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
+            <div class="menu">
+                <div><span class="material-symbols-outlined">home</span><p>Home</p></div>
+                <div><span class="material-symbols-outlined">face</span><p>User</p></div>
+                <div><span class="material-symbols-outlined">message</span><p>Messages</p></div>
+                <div><span class="material-symbols-outlined">history</span><p>History</p></div>
+                <div><span class="material-symbols-outlined">task</span><p>Tasks</p></div>
+                <div><span class="material-symbols-outlined">people</span><p>Community</p></div>
+            </div>
+            <div class="settings">
+                <div><span class="material-symbols-outlined">settings</span><p>Settings</p></div>
+                <div><span class="material-symbols-outlined">help</span><p>Support</p></div>
+                <div><span class="material-symbols-outlined">lock</span><p>Privacy</p></div>
+            </div>
         </div>
 
         <div class="main-content">
@@ -86,27 +92,27 @@
                         deserunt temporibus cumque veritatis quasi doloribus voluptate cupiditate.</p>
                     <div class="project-actions">buttons placeholder</div>
                 </div>
+            </div>
         </div>
 
-    </div>
-    <div class="announcements">
-        <h3>Announcements</h3>
-                <div class="announcement">
-                    <h3 class="announcement-title">Title</h3>
-                    <p class="announcement-text">Text</p>
-                </div>
-                <div class="announcement">
-                    <h3 class="announcement-title">Title</h3>
-                    <p class="announcement-text">Text</p>
-                </div>
-                <div class="announcement">
-                    <h3 class="announcement-title">Title</h3>
-                    <p class="announcement-text">Text</p>
-                </div>
-    </div>
+        <div class="announcements">
+            <h3>Announcements</h3>
+            <div class="announcement">
+                <h3 class="announcement-title">Title</h3>
+                <p class="announcement-text">Text</p>
+            </div>
+            <div class="announcement">
+                <h3 class="announcement-title">Title</h3>
+                <p class="announcement-text">Text</p>
+            </div>
+            <div class="announcement">
+                <h3 class="announcement-title">Title</h3>
+                <p class="announcement-text">Text</p>
+            </div>
+        </div>
 
-    <div class="trending">
-        <h3>Trending</h3>
+        <div class="trending">
+            <h3>Trending</h3>
             <div class="user">
                 <img src="" alt="img">
                 <h4 class="handle">handle</h4>
@@ -122,11 +128,11 @@
                 <h4 class="handle">handle</h4>
                 <p class="name">name</p>
             </div>
-    </div>
+        </div>
 
-    <div class="footer">
-        <p class="footer-text">Footer</p>
-    </div>
+        <div class="footer">
+            <p class="footer-text">Footer</p>
+        </div>
 </body>
 
 </html>
